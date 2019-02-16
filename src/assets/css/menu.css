@@ -43,4 +43,28 @@
 html {
     scroll-behavior: smooth;
   }
+
+
+.ui.menu {
+    background-color: yellow !important;
+    margin-bottom: 0px;
+}
+
+.item:hover {
+    background-color: aqua
+    cor
+}
+
+.headerImage {
+    height: 100%;
+    width: 100%;
+}
+
+.headerText {
+    position: absolute;
+    font-size: 3px;
+    color: white;
+    top: 100px;
+    left: 200 px;
+}
   

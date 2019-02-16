@@ -31,7 +31,7 @@
     background-color: rgba(0, 183, 255, 0.52);
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.1s ease-out;
+    transition: max-height 0.5s ease-out;
 }
 
 /* skills styling */
@@ -69,7 +69,25 @@
 .python{
     background-color: #302d2d !important;
 }
+.subtitle{
+    padding-top: 30px;
+    background-color: #ff0000 !important;
+}
 
+.exp{
+    width:100%;
+    background-color: #1de50b;
+    color: white;
+    height: 60px;
+    font-size: 25px;
+
+
+}
+
+.exp:hover {
+    background-color: #0101bc;
+    color: green;
+}
 
 /* box that stores skill */
 .skill{ 

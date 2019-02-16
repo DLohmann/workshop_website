@@ -6,6 +6,18 @@ class aboutMe extends Component {
     render() { 
         return ( 
                 <React.Fragment>
+
+                    <center className = "subtitle">
+                        <Icon name = "user"> <br/>
+                            About Me
+                        </Icon>
+                    </center>
+                    <Divider/>
+                    <p>
+                        Insert cool text about birds here!
+                    </p>
+                    
+                    {/*
                     <div id = "aboutMe">
                         <center className = "about"><Icon name ="user circle"/>
                             <br/>
@@ -23,6 +35,9 @@ class aboutMe extends Component {
                         resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
                         </p>
                     </div>
+                    */}
+
+
                     <br/>
                     <br/>
                </React.Fragment>

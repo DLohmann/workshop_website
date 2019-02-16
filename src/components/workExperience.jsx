@@ -11,6 +11,31 @@ class workExperience extends Component {
     render() { 
         return (
             <React.Fragment>
+
+            <center className="subtitle">
+                <Icon name="book"/> <br/>
+                David's work experience
+            </center>
+
+            <Grid columns="equal">
+                <Grid.Column width={8}>
+                    <button className="exp">button1</button>
+                    <div className="panel">
+                        suprising text 1!
+                    
+                    </div>
+                </Grid.Column>
+                <Grid.Column width={8}>
+                    <button className="exp">button2</button>
+                    <div className="panel">
+                        suprising text 2!
+                    
+                    </div>
+                </Grid.Column>
+            </Grid>
+
+
+                {/*
                 <div id = "workExperience">
                     <center className = "about"><Icon name ="keyboard outline"/>
                         <br/>
@@ -49,6 +74,9 @@ class workExperience extends Component {
                             </Grid.Column>
                     </Grid>
                 </div>
+
+                */}
+
                 <br/>
                 <br/>
             </React.Fragment>

@@ -4,10 +4,16 @@ import {Container} from 'semantic-ui-react'
 //IMPORT COMPONENTS
 import NavBar from "./components/NavBar";
 import AboutMe from "./components/aboutMe";
+
+import Header from "./components/header";
+
+
+
 import SubHeader from "./components/subHeader";
 import Footer from "./components/Footer";
 import WorkExperience from "./components/workExperience";
 import Skills from "./components/skills";
+
 
 //IMPORT CSS
 import "./assets/css/menu.css";

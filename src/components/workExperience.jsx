@@ -4,7 +4,8 @@ import {Divider, Icon, Grid} from "semantic-ui-react";
 
 //IMPORT JAVASCRIPT
 //this function is what we import from our js folder and then use it to interact with the dom to make accordion-like animation
-import {accordion} from "../assets/js/accordion.js";
+import {accordion, expand_button_text} from "../assets/js/accordion.js";
+import { expand } from '../assets/js/skills.js';
 
 class workExperience extends Component {
     state = {  }
@@ -19,14 +20,15 @@ class workExperience extends Component {
 
             <Grid columns="equal">
                 <Grid.Column width={8}>
-                    <button className="exp">button1</button>
+                    <button className="exp" onClick={()=>expand_button_text(0)}>button1</button>
                     <div className="panel">
                         suprising text 1!
-                    
+                        <br/>
+                        
                     </div>
                 </Grid.Column>
                 <Grid.Column width={8}>
-                    <button className="exp">button2</button>
+                    <button className="exp" onClick={()=>expand_button_text(1)}>button2</button>
                     <div className="panel">
                         suprising text 2!
                     
